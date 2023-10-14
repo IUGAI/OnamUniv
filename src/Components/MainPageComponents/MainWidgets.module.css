@@ -1,0 +1,63 @@
+.education_process {
+    display: flex;
+    padding: 60px 0 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education_process h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.title_text {
+    position: relative;
+}
+
+.title_text img {
+    position: absolute;
+    bottom: 15px;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.promotions {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* Container with rounded corners */
+.promotions > div {
+    margin: 0 5px;
+    border-radius: 20px; /* Rounded corners for the container */
+    position: relative;
+    padding-bottom: 90px;
+}
+
+
+.promotions > div > img {
+    border-radius: 20px 20px 0 0; /* Rounded top corners */
+}
+
+
+.promotions > div > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px; /* Rounded bottom corners */
+    padding: 10px; /* Add padding to the content box */
+}
+
+
+.promotions > div > div.redBackground {
+    background-color: #00adbc;
+}
+
+.promotions > div > div.yellowBackground {
+    background-color: #ffca00;
+}
